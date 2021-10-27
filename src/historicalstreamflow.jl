@@ -23,7 +23,7 @@ response will return a time series with date-value pairs.
 """
 function historic_simulation(reach_id::Int; return_format::Symbol = :csv)
 
-    parameters = Dict(:reach_id => reachid, :return_format => return_format)
+    parameters = Dict(:reach_id => reach_id, :return_format => return_format)
 
     historic_simulation(parameters)
 end
