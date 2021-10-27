@@ -1,7 +1,7 @@
 name = "GEOGloWS"
 uuid = "ca5be53c-8591-4213-9e02-39f26c545885"
 authors = ["kmarkert <kel.markert@gmail.com>"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
